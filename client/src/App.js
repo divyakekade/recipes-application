@@ -1,8 +1,15 @@
-
-function App() {
+import {Routes,Route} from "react-router-dom"
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+const App = ()=> {
   return (
-    <h1>Hello World</h1>
-  );
+    <>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+  </>
+)
 }
 
 export default App;

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ebcbfa;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.navbar-first {
+    display: flex;
+    margin-left: 5vw;
+}
+
+.navbar-logo {
+    background-image: url("./images/Kitchen-Journeys-logo.jpg");
+    height: 10vh;
+    width: 10vw;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.navbar-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-third {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar-name {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.navbar-profile {}
